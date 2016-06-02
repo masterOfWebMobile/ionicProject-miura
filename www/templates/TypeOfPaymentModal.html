@@ -1,0 +1,20 @@
+<ion-modal-view class="modalView TypeOfPaymentModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Type of Payment</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="TypeOfPaymentModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="TypeOfPaymentModalTitleArea">
+            PLEASE SELECT YOUR PAYMENT MODE
+          </div>
+          <div class="TypeOfPaymentModalPaymentButtonsGroup">
+            <button class="TypeOfPaymentModalChipAndPinButton" ng-class="TypeOfPaymentModalChipAndPinButtonSelected" ng-click="TypeOfPaymentModalChipAndPinButtonClick()"></button>
+            <button class="TypeOfPaymentModalCardSwipeButton" ng-class="TypeOfPaymentModalCardSwipeButtonSelected" ng-click="TypeOfPaymentModalCardSwipeButtonClick()"></button>
+          </div>
+          <div>
+            <div class="TypeOfPaymentModalButtonGroup">
+              <button class="TypeOfPaymentModalCancelButton" ng-click="TypeOfPaymentModal.hide()">CANCEL</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>

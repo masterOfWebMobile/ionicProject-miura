@@ -1,0 +1,25 @@
+.EmailSentModalView {
+	width: 650px;
+	height: 290px;
+	margin: 0 auto;
+}
+
+.EmailSentModalSuccessIcon {
+	margin: 0 auto;
+	color: #55ae7b;
+	font-size: 60px;
+	margin-top: 33px;
+	text-align: center;
+}
+
+.EmailSentModalGuide {
+	margin-top: 30px;
+	font-size: 15px;
+	color: #229af0;
+	text-align: center;
+}
+
+.EmailSentModalAddress {
+	font-size: 10px;
+	text-align: center;
+}

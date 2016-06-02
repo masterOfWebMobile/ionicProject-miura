@@ -1,0 +1,285 @@
+.ProductDetailContentArea {
+	position: absolute;
+	top: 6%;
+	left: 24.5%;
+	width: 51%;
+	height: 82%;
+	background-color: #f4f4f4;
+	border-radius: 3px;
+}
+
+.productDetailLabel {
+	color: #229af0;
+	font-size: 20px;
+	position: absolute;
+	left: 26.3%;
+	top: 9%;
+}
+
+.closeButton {
+	font-size: 15px;
+	position: absolute;
+	top: 9.6%;
+	left: 73%;
+	color: #b0b0b0;
+}
+
+.productImage {
+	background-image: url('../img/MiuraApp/product_sampleImage.png');
+	width: 47.2%;
+    height: 24.6%;
+    top: 14.4%;
+    left: 26.4%;
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+.changeProductImageButton {
+	width: 47.2%;
+   	font-size: 20px;
+   	position: absolute;
+   	top: 40%;
+   	left: 26.4%;
+}
+
+.changeProductImageButtonLabel {
+	float: right;
+	margin-right: 5px;
+}
+
+.changeProductImageButtonIcon {
+	float: right;
+}
+
+.enterProductTitleArea {
+	width: 47.2%;
+   	font-size: 11px;
+   	position: absolute;
+   	top: 43.5%;
+   	left: 26.4%;
+   	color: #939393;
+   	display: flex;
+}
+
+.multiply {
+	color: #ec1616;
+	margin-left: 5px;
+	font-size: 24px;
+}
+
+.enterProductTitleText {
+	width: 47.2%;
+   	font-size: 19px;
+   	position: absolute;
+   	top: 46.5%;
+   	left: 26.4%;
+   	border-bottom: 1px solid #939393;
+   	display: flex;
+}
+
+.enterProductTitleTextField {
+	width: 100%;
+	background-color: #f4f4f4;
+}
+
+.productPriceTitleArea {
+	width: 47.2%;
+   	font-size: 11px;
+   	position: absolute;
+   	top: 54%;
+   	left: 26.4%;
+   	color: #939393;
+   	display: flex;
+}
+
+.productPriceTitleText {
+	width: 47.2%;
+   	font-size: 19px;
+   	position: absolute;
+   	top: 57%;
+   	left: 26.4%;
+   	border-bottom: 1px solid #939393;
+   	display: flex;
+}
+
+.productPriceTitleTextField {
+	width: 100%;
+	background-color: #f4f4f4;
+}
+
+.productDescriptionTitleArea {
+	width: 47.2%;
+   	font-size: 11px;
+   	position: absolute;
+   	top: 73%;
+   	left: 26.4%;
+   	color: #939393;
+   	display: flex;
+}
+
+.productDescriptionTitleText {
+	width: 47.2%;
+   	font-size: 19px;
+   	position: absolute;
+   	top: 76%;
+   	left: 26.4%;
+   	border-bottom: 1px solid #939393;
+   	display: flex;
+}
+
+.productDescriptionTitleTextField {
+	width: 100%;
+	background-color: #f4f4f4;
+}
+
+.addNowButton {
+	border: 0px;
+	color: white;
+	border-radius: 3px;
+	background-color: #229af0; 
+	width: 100%;
+	height: 3.9%;
+	top: 83%;
+	width: 17.6%;	
+	left: 41.2%;
+	position: absolute;
+}
+
+.addNowButtonLabel {
+	font-size: 18px;
+	color: white;
+	margin: 0px;
+}
+
+.productOptionLine {
+	width: 100%;
+   	font-size: 11px;
+   	position: absolute;
+   	top: 63%;
+   	color: #939393;
+   	display: flex;
+}
+
+.productSizeArea {
+   	position: absolute;
+   	top: 63%;
+   	left: 26.4%;
+   	color: #939393;
+   	display: flex;
+}
+
+.categoryArea {
+   	position: absolute;
+   	top: 63%;
+   	left: 34.7%;
+   	color: #939393;
+   	display: flex;
+}
+
+.productSizeSelectDownArrow {
+	margin-left: 5px;
+}
+
+.categorySelectDownArrow {
+	margin-left: 5px;
+}
+
+.quantityArea {
+   	position: absolute;
+   	top: 63%;
+   	left: 42.3%;
+   	color: #939393;
+   	display: flex;
+}
+
+.colorArea {
+   	position: absolute;
+   	top: 63%;
+   	left: 49.3%;
+   	color: #939393;
+   	display: flex;
+}
+
+.productOptionValueLine {
+	width: 100%;
+   	font-size: 15px;
+   	position: absolute;
+   	top: 66%;
+   	display: flex;
+   	align-itmes: center;
+}
+
+.productSizeValueArea {
+	 position: absolute;
+    top: 66%;
+    left: 26.4%;
+    display: flex;
+    border-style: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    background-color: #f4f4f4;
+    width: 80px;
+}
+
+.categoryValueArea {
+	position: absolute;
+   	top: 66%;
+   	left: 34.7%;
+   	display: flex;
+    border-style: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    background-color: #f4f4f4;
+    width: 80px;
+}
+
+.quantityValueLabel {
+	position: absolute;
+  	top: 66%;
+  	left: 42.3%;
+	margin: 0;
+}
+
+.quantityValueButtonGroup {
+	position: absolute;
+	top: 66%;
+	left: 44%;
+	margin: 0;
+}
+
+.quantityPlusButton {
+	border-radius: 1px;
+	background-color: #229af0;
+	color: white;
+	border: 0;
+	width: 25px;
+	height: 20px;
+	position: absolute;
+}
+
+.quantityMinusButton {
+	border: 0;
+	border-radius: 1px;
+	background-color: #f4f4f4; 
+	width: 25px;
+	height: 20px;
+	border: 1px solid #d8d8d8;
+	margin-left: 25px;
+	position: absolute;
+	color: #828282;
+}
+
+.colorValueArea {
+	position: absolute;
+   	top: 66%;
+   	left: 49.3%;
+   	height: 20px;
+   	width: 20px;
+   	display: flex;
+   	background-color: white;
+   	border-radius: 50%;
+}

@@ -1,0 +1,38 @@
+<ion-modal-view class="modalView PaymentSuccessfulModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Payment Successful</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="PaymentSuccessfulModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="PaymentSuccessfulModalSummaryAndDateArea">
+            <div class="PaymentSuccessfulModalSummaryIcon"></div>
+            <div class="PaymentSuccessfulModalSummaryText">Summary</div>
+            <div class="PaymentSuccessfulModalDateArea">Date: 12/12/15</div>
+          </div>
+          <div class="PaymentSuccessfulModalAmountArea">
+            <div class="PaymentSuccessfulModalAmountTitle">Amount:</div>
+            <div class="PaymentSuccessfulModalAmountValue">$10</div>
+          </div>
+          <div class="PaymentSuccessfulModalMerchantIDArea">
+            <div class="PaymentSuccessfulModalMerchantIDTitle">Merchant ID:</div>
+            <div class="PaymentSuccessfulModalMerchantIDValue">0400</div>
+          </div>
+          <div class="PaymentSuccessfulModalMerchantNameArea">
+            <div class="PaymentSuccessfulModalMerchantNameTitle">Merchant Name:</div>
+            <div class="PaymentSuccessfulModalMerchantNameValue">Starbucks</div>
+          </div>
+          <div class="PaymentSuccessfulModalPaymentMethodArea">
+            <div class="PaymentSuccessfulModalPaymentMethodTitle">Payment Method:</div>
+            <div class="PaymentSuccessfulModalPaymentMethodValue">iKTB Payment</div>
+          </div>
+          <div class="PaymentSuccessfulModalSuccessArea">
+            <i class="ion-ios-checkmark-outline PaymentSuccessfulModalSuccessIcon"></i>
+          </div>
+          <div class="PaymentSuccesfulModalGuide">YOUR PAYMENT HAS BEEN RECEIVED<br>THANK YOU FOR USING IKTB PAYMENTS</div>
+          <div>
+            <div class="PaymentSuccessfulModalButtonGroup">
+              <button class="PaymentSuccessfulModalCancelButton" ng-click="PaymentSuccessfulModal.hide(); PaymentReceiptModal.show()">CLICK HERE TO VIEW YOUR DIGITAL RECEIPT</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>

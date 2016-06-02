@@ -1,0 +1,216 @@
+.ktbProductBoxesHeaderBar {
+	position: absolute;
+	width: 100%;
+	height: 8.94%;
+	top: 7.73%;
+	background-color: #229af0;
+	display: flex; 
+	align-items: center; 
+}
+
+.productCatelogButton {
+	font-size: 15px;
+	color: white;
+	margin: 0;
+	margin-left: 1.1%;
+}
+
+.inventoryManagerButton {
+	font-size: 15px;
+	color: white;
+	margin: 0;
+	margin-left: 1.6%;
+}
+
+.dashboardButton {
+	font-size: 15px;
+	color: white;
+	margin: 0;
+	margin-left: 1.6%;
+}
+
+.transactionManagerButton {
+	font-size: 15px;
+	color: white;
+	margin: 0;
+	margin-left: 1.6%;
+}
+
+.appKtbIcon {
+	background-image: url('../img/MiuraApp/app_ktbIcon.png');
+    background-size: 100% 100%;
+	width: 7.7%;
+	height: 67.11%;
+	position: absolute;
+	left: 46.15%;
+	top: 16.44%;
+}
+
+.welcomeInfoArea {
+	flex: 1;
+	margin-right: 1.1%;
+	text-align: right;
+}
+
+.welcomeLabel {
+	color: white;
+	font-size: 15px;
+	margin: 0;
+}
+
+.logoutArea {
+	color: white;
+	font-size: 11px;
+	margin: 0;
+	display: inline;
+}
+
+.ktbProductAdd {
+	background-color: #f4f8fb;
+}
+
+.ProductAddContentArea {
+	padding-top: 4%;
+	display: flex;
+	position: absolute;
+	top: 16.67%;
+	height: 83.33%;
+	width: 100%
+}
+
+.ProductAddAddProductArea {
+	flex: 58;
+	width: 58%;
+	height: 100%;
+	padding-left: 1.1%;
+	padding-bottom: 1.77%;
+}
+
+.itemCheckOutArea {
+	display: inline;
+	flex: 42;
+	height: 100%;
+	padding-left: 0.9%;
+	padding-right: 1.1%;
+}
+
+.addProductButton {
+	width: 18.1%;
+	height: 5.52%;
+	background-color: #229af0;
+	color: white;
+	float: right;
+	display: inline;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+}
+
+.addProductButtonLabel {
+	font-size: 15px;
+	color: white;
+	margin: 0px;
+}
+
+.ProductAddProductsArea {
+	height: 94.48%;
+	width: 100%;
+	padding-top: 2.56%;
+}
+
+.ProductAddRow {
+	height: 20%;
+	margin: 4px;
+}
+
+.ProductAddCol {
+	visibility: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e5e5e5;
+	height: 100%;
+	padding: 3%;
+	border-radius: 3px;
+	margin: 2px;
+	color: #d0d0d0;
+}
+
+.itemCheckOutAreaTitle {
+	width: 100%;
+	background-color: white;
+	height: 5.52%;
+	display: flex;
+	border-bottom: 1px solid #b6b6b6;
+	font-size: 15px;
+	display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    color: #b6b6b6;
+}
+
+.itemsLabel {
+	display: inline;
+	margin: 0;
+	margin-left: 4.5%;
+}
+
+.amountLabel {
+	display: inline;
+	margin: 0;
+	margin-right: 4.5%;
+	float: right;
+	margin-left: auto;
+}
+
+.itemsArea {
+	height: 75%;
+	width: 100%;
+	background-color: white;
+}
+
+.checkOutButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #229af0; 
+	width: 100%;
+	height: 10.72%;
+}
+
+.checkOutButtonLabel {
+	font-size: 20px;
+	color: white;
+	margin: 0px;
+}
+
+.totalBudgetArea {
+	height: 8.76%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	background-color: white;
+}
+
+.addProductButton {
+	width: 18.1%;
+	height: 5.52%;
+	background-color: #229af0;
+	color: white;
+	float: right;
+	display: inline;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+}
+
+.addProductButtonLabel {
+	font-size: 15px;
+	color: white;
+	margin: 0px;
+}

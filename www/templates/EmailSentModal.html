@@ -1,0 +1,11 @@
+<ion-modal-view class="modalView EmailSentModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Email Sent</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="EmailSentModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="EmailSentModalSuccessIcon"><i class="ion-ios-checkmark-outline EmailSentModalSuccessIcon" ng-click="EmailSentModal.hide(); PaymentUnsuccessfulModal.show()"></i></div>
+          <div class="EmailSentModalGuide">Thank You!<br>Your email has been sent to the following address</div>
+          <div class="EmailSentModalAddress">Hassan.malik@gmail.com</div>
+        </ion-content>
+</ion-modal-view>

@@ -1,0 +1,64 @@
+.TypeOfPaymentModalView {
+	width: 650px;
+	height: 390px;
+	margin: 0 auto;
+}
+
+.TypeOfPaymentModalTitleArea {
+	margin-top: 35px;
+	text-align: center;
+	font-size: 15px;
+	color: #afafaf;
+}
+
+.TypeOfPaymentModalPaymentButtonsGroup {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.TypeOfPaymentModalButtonGroup {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.TypeOfPaymentModalCancelButton {
+	background-color: #229af0;
+	font-size: 15px;
+	border: 0px;
+    color: white;
+    width: 91px;
+    height: 31px;
+    border-radius: 3px;
+}
+
+.TypeOfPaymentModalChipAndPinButton {
+	width: 180px;
+	height: 150px;
+	background-size: 100% 100%;
+	border: 0px;
+	background-color: white;
+}
+
+.TypeOfPaymentModalCardSwipeButton {
+	width: 180px;
+	height: 150px;
+	background-size: 100% 100%;
+	border: 0px;
+	background-color: white
+}
+
+.TypeOfPaymentModalCardSwipeButtonSelected {
+	background-image: url('../img/MiuraApp/miuraTerminalCardSwipeSelected.png');
+}
+
+.TypeOfPaymentModalCardSwipeButtonUnselected {
+	background-image: url('../img/MiuraApp/miuraTerminalCardSwipe.png');
+}
+
+.TypeOfPaymentModalChipAndPinButtonSelected {
+	background-image: url('../img/MiuraApp/miuraTerminalChipAndPinSelected.png');
+}
+
+.TypeOfPaymentModalChipAndPinButtonUnselected {
+	background-image: url('../img/MiuraApp/miuraTerminalChipAndPin.png');
+}

@@ -1,0 +1,68 @@
+<ion-modal-view class="modalView DeleteProductModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Delete Product</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="DeleteProductModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="DeleteProductModalImageArea"></div>
+          <div class="DeleteProductModalProductOptionLine">
+            <div class="DeleteProductModalDateArea">
+              DATE
+            </div>
+            <div class="DeleteProductModalPriceArea">
+              PRICE
+            </div>
+            <div class="DeleteProductModalProductSizeArea">
+              PRODUCT SIZE <i class="ion-ios-arrow-down DeleteProductModalProductSizeSelectDownArrow"></i>
+            </div>
+            <div class="DeleteProductModalCategoryArea">
+              CATEGORY <i class="ion-ios-arrow-down DeleteProductModalCategorySelectDownArrow"></i>
+            </div>
+            <div class="DeleteProductModalQuantityArea">
+              QUANTITY
+            </div>
+            <div class="DeleteProductModalColorArea">
+              COLOR
+            </div>
+          </div>
+          <div class="DeleteProductModalProductOptionValueLine">
+            <div class="DeleteProductModalDateValueArea">
+              30 Jun 2015
+            </div>
+            <div class="DeleteProductModalPriceValueArea">
+              $200.00
+            </div>
+            <select class="DeleteProductModalProductSizeValueArea">
+                <option>Small</option>
+                <option selected>Medium</option>
+                <option>Big</option>
+              </select>
+            <select class="DeleteProductModalCategoryValueArea">
+                <option selected>Electronics</option>
+                <option>FOOD</option>
+                <option>DRINKS</option>
+                <option>CLOTHES</option>
+              </select>
+
+            <p class="DeleteProductModalQuantityValueLabel" ng-model="quantityValue">{{quantityValue}}</p>
+            <div class="DeleteProductModalQuantityValueButtonGroup">
+              <button class="DeleteProductModalQuantityPlusButton" ng-click="quantityValuePlusButtonClicked()">+</button>
+              <button class="DeleteProductModalQuantityMinusButton" ng-click="quantityValueMinusButtonClicked()">-</button>
+            </div>
+            <div class="DeleteProductModalColorValueArea" ng-model="testColors.first" modal-title="Choose a color" color-box="{{testColors.first}}" modal-class="vcc" header-footer-class="bar-positive" color-picker="" style="background-color: {{ testColors.first}} ">
+              <!--button class="button" color-picker="" ng-model="testColors.first" modal-title="Choose a color" color-box="{{testColors.first}}" modal-class="vcc" header-footer-class="bar-positive">
+                        {{ testColors.first}} 
+                      </button-->
+            </div>
+          </div>
+          <div class="DeleteProductModalQuestionArea">
+            Are you sure to delete this product?
+          </div>
+          <div>
+            <div class="DeleteProductModalButtonGroup">
+              <button class="DeleteProductModalSubmitButton" ng-click="DeleteProductModal.hide()">SUBMIT</button>
+              <button class="DeleteProductModalCancelButton" ng-click="DeleteProductModal.hide()">CANCEL</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>

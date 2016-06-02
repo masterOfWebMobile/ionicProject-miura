@@ -1,0 +1,76 @@
+<ion-modal-view class="modalView MarkAsDamagedModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Mark As Damaged</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="MarkAsDamagedModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="MarkAsDamagedModalImageArea"></div>
+          <div class="MarkAsDamagedModalProductOptionLine">
+            <div class="MarkAsDamagedModalProductTypeArea">
+              PRODUCT TYPE
+            </div>
+            <div class="MarkAsDamagedModalDateArea">
+              DATE
+            </div>
+            <div class="MarkAsDamagedModalPriceArea">
+              PRICE
+            </div>
+            <div class="MarkAsDamagedModalProductSizeArea">
+              PRODUCT SIZE <i class="ion-ios-arrow-down MarkAsDamagedModalProductSizeSelectDownArrow"></i>
+            </div>
+            <div class="MarkAsDamagedModalCategoryArea">
+              CATEGORY <i class="ion-ios-arrow-down MarkAsDamagedModalCategorySelectDownArrow"></i>
+            </div>
+            <div class="MarkAsDamagedModalQuantityArea">
+              QUANTITY
+            </div>
+            <div class="MarkAsDamagedModalColorArea">
+              COLOR
+            </div>
+          </div>
+          <div class="MarkAsDamagedModalProductOptionValueLine">
+            <div class="MarkAsDamagedModalProductTypeValueArea">
+              Damaged
+            </div>
+            <div class="MarkAsDamagedModalDateValueArea">
+              30 Jun 2015
+            </div>
+            <div class="MarkAsDamagedModalPriceValueArea">
+              $200.00
+            </div>
+            <select class="MarkAsDamagedModalProductSizeValueArea">
+                <option>Small</option>
+                <option selected>Medium</option>
+                <option>Big</option>
+              </select>
+            <select class="MarkAsDamagedModalCategoryValueArea">
+                <option selected>Electronics</option>
+                <option>FOOD</option>
+                <option>DRINKS</option>
+                <option>CLOTHES</option>
+              </select>
+
+            <p class="MarkAsDamagedModalQuantityValueLabel" ng-model="quantityValue">{{quantityValue}}</p>
+            <div class="MarkAsDamagedModalQuantityValueButtonGroup">
+              <button class="MarkAsDamagedModalQuantityPlusButton" ng-click="quantityValuePlusButtonClicked()">+</button>
+              <button class="MarkAsDamagedModalQuantityMinusButton" ng-click="quantityValueMinusButtonClicked()">-</button>
+            </div>
+            <div class="MarkAsDamagedModalColorValueArea" ng-model="testColors.first" modal-title="Choose a color" color-box="{{testColors.first}}" modal-class="vcc" header-footer-class="bar-positive" color-picker="" style="background-color: {{ testColors.first}} ">
+              <!--button class="button" color-picker="" ng-model="testColors.first" modal-title="Choose a color" color-box="{{testColors.first}}" modal-class="vcc" header-footer-class="bar-positive">
+                        {{ testColors.first}} 
+                      </button-->
+            </div>
+          </div>
+          <div class="MarkAsDamagedModalNotesArea">
+            NOTES
+          </div>
+          <textarea rows="4" cols="50" class="MarkAsDamagedModalTextArea">Damaged description...
+          </textarea>
+          <div>
+            <div class="MarkAsDamagedModalButtonGroup">
+              <button class="MarkAsDamagedModalSubmitButton" ng-click="MarkAsDamagedModal.hide(); DeleteProductModal.show()">SUBMIT</button>
+              <button class="MarkAsDamagedModalCancelButton" ng-click="MarkAsDamagedModal.hide()">CANCEL</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>

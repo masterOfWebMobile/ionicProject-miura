@@ -1,0 +1,56 @@
+.SignatureModalView {
+	width: 650px;
+	height: 365px;
+	margin: 0 auto;
+}
+
+.SignatureModalTitleArea {
+	font-size: 17px;
+	text-align: center;
+	margin-top: 40px;
+	color: #b0b0b0;
+}
+
+.SignatureModalSignArea {
+	margin-top: 24px;
+}
+
+.SignatureModalSignDrawingPanel {
+	height: 80px;
+	width: 590px;
+	margin: 0 auto;
+	border-bottom: 1px solid #b0b0b0;
+}
+
+.SignatureModalGuide {
+	color: #b0b0b0;
+	font-size: 10px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.SignatureModalButtonGroup {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.SignatureModalContinueButton {
+	background-color: #229af0;
+	font-size: 10px;
+	border: 0px;
+    color: white;
+    width: 91px;
+    height: 31px;
+    border-radius: 3px;
+}
+
+.SignatureModalClearButton {
+	background-color: #7a7a7a;
+	font-size: 10px;
+	border: 0px;
+    color: white;
+    width: 91px;
+    height: 31px;
+    border-radius: 3px;
+    margin-left: 10px;
+}

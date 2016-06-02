@@ -1,0 +1,21 @@
+.ktbLoginSuccessLogo {
+	font-size: 60px;
+	color: #55ae7b;
+}
+
+.ktbLoginSuccessLabel {
+	position: absolute;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	top: 61.37%;
+	color: #8ac0d9;
+}
+
+.ktbLoginSuccessIconContainer {
+	width: 100%;
+    height: 13.25%;
+    top: 46.58%;
+    position: absolute;
+    text-align: center;
+}

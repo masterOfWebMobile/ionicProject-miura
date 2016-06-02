@@ -1,0 +1,246 @@
+.MarkAsDamagedModalView {
+	width: 650px;
+	height: 580px;
+	margin: 0 auto;
+	background-color: #f4f4f4;
+	top: 100px;
+}
+
+.MarkAsDamagedModalImageArea {
+	margin-top: 10px;
+	background-image: url('../img/MiuraApp/product_sampleImage.png');
+	width: 100%;
+    height: 155px;
+    background-size: 100% 100%;
+    border-radius: 3px;
+}
+
+
+.MarkAsDamagedModalProductOptionLine {
+	margin-top: 20px;
+	position: relative;
+	height: 20px;
+	font-size: 9px;
+   	color: #939393;
+}
+
+.MarkAsDamagedModalProductTypeArea {
+	position: absolute;
+	left: 0px;
+}
+
+.MarkAsDamagedModalDateArea {
+	position: absolute;
+	left: 100px;
+}
+
+.MarkAsDamagedModalPriceArea {
+	position: absolute;
+	left: 200px;
+}
+
+.MarkAsDamagedModalProductSizeArea {
+	position: absolute;
+	left: 270px;
+}
+
+.MarkAsDamagedModalCategoryArea {
+	position: absolute;
+	left: 380px;
+}
+
+.MarkAsDamagedModalQuantityArea {
+	position: absolute;
+	left: 476px;
+}
+
+.MarkAsDamagedModalColorArea {
+	position: absolute;
+	left: 570px;
+
+}
+
+.MarkAsDamagedModalProductOptionValueLine {
+	margin-top: 10px;
+	position: relative;
+	height: 40px;
+	border-bottom: 1px solid #b0b0b0;
+}
+
+.MarkAsDamagedModalProductSizeValueArea {
+	position: absolute;
+	left: 270px;
+    border-style: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    background-color: #f4f4f4;
+    color: black;
+    width: 80px;
+}
+
+.MarkAsDamagedModalCategoryValueArea {
+	position: absolute;
+   	left: 380px;
+    border-style: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    background-color: #f4f4f4;
+    color: black;
+    width: 80px;
+}
+
+.MarkAsDamagedModalQuantityValueLabel {
+	position: absolute;
+  	left: 476px;
+  	color: black;
+	margin: 0;
+}
+
+.MarkAsDamagedModalProductTypeValueArea {
+	position: absolute;
+  	left: 0px;
+  	color: black;
+	margin: 0;
+}
+
+.MarkAsDamagedModalDateValueArea {
+	position: absolute;
+  	left: 100px;
+  	color: black;
+	margin: 0;
+}
+
+.MarkAsDamagedModalPriceValueArea {
+	position: absolute;
+  	left: 200px;
+  	color: black;
+	margin: 0;
+}
+
+.MarkAsDamagedModalQuantityValueButtonGroup {
+	position: absolute;
+	left: 490px;
+	margin: 0;
+}
+
+.MarkAsDamagedModalQuantityPlusButton {
+	border-radius: 1px;
+	background-color: #a0a0a0;
+	color: white;
+	border: 0;
+	width: 25px;
+	height: 20px;
+	position: absolute;
+}
+
+.MarkAsDamagedModalQuantityMinusButton {
+	border: 0;
+	border-radius: 1px;
+	background-color: #f4f4f4; 
+	width: 25px;
+	height: 20px;
+	border: 1px solid #d8d8d8;
+	margin-left: 25px;
+	position: absolute;
+	color: #a5a5a5;
+}
+
+.MarkAsDamagedModalColorValueArea {
+	position: absolute;
+   	left: 570px;
+   	height: 20px;
+   	width: 20px;
+  	background-color: white;
+   	border-radius: 50%;
+}
+
+.MarkAsDamagedModalProductDescriptionArea {
+	margin-top: 20px;
+	font-size: 9px;
+   	color: #939393;
+}
+
+.MarkAsDamagedModalProductDescriptionText {
+   	border-bottom: 1px solid #b0b0b0;
+   	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+	display: flex;
+	-webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.MarkAsDamagedModalProductDescriptionTextField {
+	-webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+	background-color: #f4f4f4;
+	font-size: 12px !important;
+	height: 100% !important;
+}
+
+.MarkAsDamagedModalProductDescriptionIcon {
+
+}
+
+.MarkAsDamagedModalButtonGroup {
+	text-align: right;
+	margin-top: 20px;
+}
+
+.MarkAsDamagedModalSubmitButton {
+	background-color: #229af0;
+	font-size: 15px;
+	border: 0px;
+    color: white;
+    width: 91px;
+    height: 31px;
+    border-radius: 3px;
+}
+
+.MarkAsDamagedModalCancelButton {
+	background-color: #7a7a7a;
+	font-size: 15px;
+	border: 0px;
+    color: white;
+    width: 91px;
+    height: 31px;
+    border-radius: 3px;
+}
+
+.MarkAsDamagedModalNotesArea {
+	margin-top: 30px;
+	color: #939393;
+	font-size: 9px;
+}
+
+.MarkAsDamagedModalTextArea {
+	height: 147px;
+	width: 100%;
+	margin-top: 10px;
+	border: 1px solid #939393;
+	padding: 10px !important;
+}

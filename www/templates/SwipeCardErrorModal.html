@@ -1,0 +1,17 @@
+<ion-modal-view class="modalView SwipeCardErrorModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Pin Code Error</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="SwipeCardErrorModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="SwipeCardErrorModalLoadingArea">
+            <div class="SwipeCardErrorModalLoadingIcon"></div>
+          </div>
+          <div class="SwipeCardErrorModalGuide">SOMETHING WENT WRONG, PLEASE SWIPE AGAIN</div>
+          <div>
+            <div class="SwipeCardErrorModalButtonGroup">
+              <button class="SwipeCardErrorModalCancelButton" ng-click="SwipeCardErrorModal.hide(); ProcessingPaymentProcessedModal.show()">TRY AGAIN</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>

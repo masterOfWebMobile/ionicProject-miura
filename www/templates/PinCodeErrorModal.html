@@ -1,0 +1,17 @@
+<ion-modal-view class="modalView PinCodeErrorModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Pin Code Error</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="PinCodeErrorModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="PinCodeErrorModalLoadingArea">
+            <div class="PinCodeErrorModalLoadingIcon"></div>
+          </div>
+          <div class="PinCodeErrorModalGuide">YOU HAVE ENTERED AN INCORRECT PIN</div>
+          <div>
+            <div class="PinCodeErrorModalButtonGroup">
+              <button class="PinCodeErrorModalCancelButton" ng-click="PinCodeErrorModal.hide(); ProcessingPaymentProcessedModal.show()">TRY AGAIN</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>

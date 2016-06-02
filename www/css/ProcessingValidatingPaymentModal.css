@@ -1,0 +1,39 @@
+.ProcessingValidatingPaymentModalView {
+	width: 650px;
+	height: 390px;
+	margin: 0 auto;
+}
+
+.ProcessingValidatingPaymentModalGuide {
+	text-align: center;
+	color: #afafaf;
+	margin-top: 47px;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.ProcessingValidatingPaymentModalButtonGroup {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.ProcessingValidatingPaymentModalCancelTransactionButton {
+	background-color: #229af0;
+	font-size: 15px;
+	border: 0px;
+    color: white;
+    width: 182px;
+    height: 31px;
+    border-radius: 3px;
+}
+
+.ProcessingValidatingPaymentModalLoadingArea {
+	text-align: center;
+	margin-top: 65px;
+}
+
+.ProcessingValidatingPaymentModalLoadingIcon {
+	font-size: 60px;
+	color: #36bdc8;
+	margin: 0 auto;
+}

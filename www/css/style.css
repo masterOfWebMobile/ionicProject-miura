@@ -1,0 +1,186 @@
+/* Empty. Add your own CSS if you like */
+.verticalMenuIcon {
+	font-size: 40px;
+	position: absolute;
+	left: 98.8%;
+	top: 1.5%;
+	color: #c5c5c5;
+}
+
+.appMenu {
+	font-size: 40px;
+	position: absolute;
+	left: 1.1%;
+	top: 1.5%;
+	color: #c5c5c5;
+}
+
+.appNavBar {
+	background-color: #e7e7e7;
+	height: 7.73%; 
+}
+
+
+.appHeaderTitle {
+	font-size: 40px;
+	position: absolute;
+	top: 2.5%;
+	color: white;
+	text-align: center;
+	margin: auto 0;
+	width: 100%;
+}
+
+.searchIcon {
+	font-size: 40px;
+	position: absolute;
+	left: 95.2%;
+	top: 1.5%;
+	color: #c5c5c5;
+}
+
+input[type=range] {
+    /*removes default webkit styles*/
+    -webkit-appearance: none;
+    
+    /*fix for FF unable to apply focus style bug */
+    /*border: 1px solid white;
+    
+    /*required for proper track sizing in FF*/
+}
+input[type=range]::-webkit-slider-runnable-track {
+    height: 5px;
+    background: #cfd9e0;
+    border: none;
+    border-radius: 3px;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #229af0;
+    margin-top: -5px;
+    overflow: hidden;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+input[type=range]::-moz-range-track {
+    height: 5px;
+    background: #cfd9e0;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-moz-fill-lower {
+    background: #cfd9e0;
+    border-radius: 10px;
+}
+input[type=range]::-moz-fill-upper {
+    background: #cfd9e0;
+    border-radius: 10px;
+}
+
+input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #229af0;
+}
+
+/*hide the outline behind the border*/
+input[type=range]:-moz-focusring{
+    outline: 1px solid white;
+    outline-offset: -1px;
+}
+
+input[type=range]::-ms-track {
+    height: 5px;
+    
+    /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+    background: transparent;
+    
+    /*leave room for the larger thumb to overflow with a transparent border */
+    border-color: transparent;
+    border-width: 6px 0;
+
+    /*remove default tick marks*/
+    color: transparent;
+}
+input[type=range]::-webkit-fill-lower {
+    background: #cfd9e0;
+    border-radius: 10px;
+}
+input[type=range]::-webkit-fill-upper {
+    background: #cfd9e0;
+    border-radius: 10px;
+}
+input[type=range]::-ms-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #229af0;
+}
+input[type=range]:focus::-ms-fill-lower {
+    background: #cfd9e0;
+}
+input[type=range]:focus::-ms-fill-upper {
+    background: #cfd9e0;
+}
+
+.ion-android-remove{
+	color: #aebfcc;
+}
+
+.ion-android-add {
+	color: #229af0;
+}
+
+.range-positive {
+    width: 400px;
+	height: 43px;
+	background-color: #f4f8fb;
+	border: 0px;
+	padding: 0px;
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: -webkit-inline-flex;
+	display: inline-flex;
+}
+
+.range input {
+    margin-top: 0px;
+}
+
+.rangePlusButton {
+    vertical-align: middle;
+}
+
+.rangeMinusButton {
+    vertical-align: middle;
+}
+
+.modalView {
+    border-radius: 5px;
+}
+
+.DashboardModalViewHeaderBar {
+    background-color: #f4f4f4;
+}
+
+.DashboardModalViewHeaderName {
+    color: #229af0;
+}
+
+.DashboardModalViewHeaderCloseButton {
+    color: #b0b0b0;
+}

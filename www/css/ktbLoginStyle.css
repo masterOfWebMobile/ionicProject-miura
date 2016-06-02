@@ -1,0 +1,121 @@
+.ktbLoginIcon {
+	background-image: url('../img/MiuraApp/KtbLoginScreen_logo.png');
+	width: 10%;
+    height: 7.84%;
+    top: 20.42%;
+    left: 45%;
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+.ktbLoginNextButton {
+	border-radius: 3px;
+	background-color: #4ea6ca; 
+	width: 100%;
+	height: 7%;
+	top: 77%;
+	width: 15%;	
+	left: 42.5%;
+	position: absolute;
+	border: 0px;
+    color: white;
+    font-size: 18px;
+}
+
+.ktbLoginUserNameLabel {
+	left: 19.8%;
+	top: 51.21%;
+	position: absolute;
+	font-size: 13px;
+	color: #afafaf;
+}
+
+.ktbLoginPassWordLabel {
+	left: 19.8%;
+	top: 60.71%;
+	position: absolute;
+	font-size: 13px;
+	color: #afafaf;
+}
+
+.ktbLoginRememberMeLabel {
+	left: 19.8%;
+	top: 69.98%;
+	position: absolute;
+	font-size: 13px;
+	color: #afafaf;
+}
+
+.ktbLoginForgotLabel {
+	right: 19.8%;
+	top: 60.71%;
+	position: absolute;
+	font-size: 13px;
+	color: #afafaf;
+}
+
+.ktbLoginCheckIcon {
+	position: absolute;
+	font-size: 30px;
+	left: 28%;
+	top: 69.4%;
+}
+
+.ktbLoginRememberMeSelected {
+	color: #00a4e4;
+}
+
+.ktbLoginRememberMeUnselected {
+	color: #b0b0b0;
+}
+
+.ktbLoginUserNameText {
+	font-size: 20px;
+	width: 100%;
+}
+
+.ktbLoginUserNameTextArea {
+	position: absolute;
+	left: 19.8%;
+	width: 60.4%;
+	top: 54.08%;
+	font-size: 20px;
+	border-bottom: 1px solid #d1d3d3;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.ktbLoginPassWordText {
+	position: absolute;
+	left: 19.8%;
+	width: 60.4%;
+	top: 63.47%;
+	height: 4.86%;
+	font-size: 20px;
+	border-bottom: 3px dashed;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+	font-size: 20px;
+	border: 3;
+}
+
+.ktbUserNameHelpIcon {
+	font-size: 20px;
+	position: absolute;
+	right: 19.8%;
+	top: 55%;
+	color: #7b7b7b;
+}
+
+.ktbPassWordHelpIcon {
+	font-size: 20px;
+	position: absolute;
+	right: 19.8%;
+	top: 64.4%;
+	color: #7b7b7b;
+}

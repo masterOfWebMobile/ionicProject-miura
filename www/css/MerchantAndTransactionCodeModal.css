@@ -1,0 +1,76 @@
+.MerchantAndTransationCodeModalLogo {
+	background-image: url('../img/MiuraApp/itb_pay_popupImage1.png');
+    background-size: 100% 100%;
+    width: 136px;
+    height: 113px;
+    margin: 0 auto;
+}
+
+.MerchantAndTransactionCodeModalLogoWrapper {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.MerchantAndTransactionCodeModalTitle {
+	text-align: center;
+	color: #229af0;
+	font-size: 18px;
+	margin-top: 38px;
+}
+
+.MerchantAndTransactionCodeModalGuide {
+	text-align: center;
+	color: #afafaf;
+	margin-top: 47px;
+	font-size: 18px;
+	margin-top: 43px;
+}
+
+.MerchantAndTransactionCodeModalInputArea {
+	text-align: center;
+	margin-top: 27px;
+}
+
+.MerchantAndTransactionCodeModalInput {
+	border-bottom: 1px dashed #6d6d6d;
+	width: 290px;
+	margin: 0 auto;
+}
+
+.MerchantAndTransactionCodeModalGuide2 {
+	text-align: center;
+	font-size: 13px;
+	color: #767676;
+	margin-top: 13px;
+}
+
+.MerchantAndTransactionCodeModalButtonGroup {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.MerchantAndTransactionCodeModalNextButton {
+	background-color: #229af0;
+	font-size: 15px;
+	border: 0px;
+    color: white;
+    width: 92px;
+    height: 31px;
+    border-radius: 3px;
+}
+
+.MerchantAndTransactionCodeModalCancelButton {
+	background-color: #7a7a7a;
+	font-size: 15px;
+	border: 0px;
+    color: white;
+    width: 92px;
+    height: 31px;
+    border-radius: 3px;
+}
+
+.MerchantAndTransactionCodeModalView {
+	width: 650px;
+	height: 480px;
+	margin: 0 auto;
+}

@@ -1,0 +1,19 @@
+<ion-view view-title="KtbLogin">
+	<ion-content class="ktbLogin">
+		<div class="appNavBar"></div>
+		<i class="ion-android-menu appMenu"></i>
+		<i class="ion-android-search searchIcon"></i>
+	  	<i class="ion-android-more-vertical verticalMenuIcon"></i>	  	
+	  	<div class="ktbLoginIcon"></div>
+	  	<div class="ktbLoginUserNameLabel">USERNAME</div>
+	  	<div class="ktbLoginUserNameTextArea"><input type="text" class="ktbLoginUserNameText"></input></div>
+	  	<i class="ion-help-circled ktbUserNameHelpIcon"></i>
+	  	<div class="ktbLoginPassWordLabel">PASSWORD</div>
+	  	<div class="ktbLoginForgotLabel">FORGOT YOUR PASSWORD?</div>
+	  	<input type="password" class="ktbLoginPassWordText"></input>
+	  	<i class="ion-help-circled ktbPassWordHelpIcon"></i>
+	  	<div class="ktbLoginRememberMeLabel">REMEMBER ME</div>
+	  	<i class="ion-android-checkbox ktbLoginCheckIcon" ng-click="onRememberMe()" ng-class="rememberMeSelected"></i>
+	  	<button type="button" class="ktbLoginNextButton" ng-click="onGoToKtbLoginSuccess()">LOGIN &gt;</button>
+	</ion-content>
+</ion-view>

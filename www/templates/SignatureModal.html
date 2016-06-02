@@ -1,0 +1,21 @@
+<ion-modal-view class="modalView SignatureModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Type of Payment</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="SignatureModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="SignatureModalTitleArea">
+            PLEASE SIGN HERE
+          </div>
+          <div class="SignatureModalSignArea">
+            <div class="SignatureModalSignDrawingPanel"></div>
+          </div>
+          <div class="SignatureModalGuide">Aenean sagittis feugiat nunc, quis lobortis urna porta eget. Class aptent taciti sociosqu<br>ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
+          <div>
+            <div class="SignatureModalButtonGroup">
+              <button class="SignatureModalContinueButton" ng-click="SignatureModal.hide()">CONTINUE</button>
+              <button class="SignatureModalClearButton" ng-click="SignatureModal.hide()">CLEAR</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>

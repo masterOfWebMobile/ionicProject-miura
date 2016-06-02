@@ -1,0 +1,47 @@
+.EnterCashAmountReceivedModalView {
+	width: 490px;
+	height: 205px;
+	margin: 0 auto;
+}
+
+.EnterCashAmountReceivedModalCashAmount {
+	margin-top: 40px;
+}
+
+.EnterCashAmountReceivedModalAmountArea {
+	height: 40px;
+	width: 230px;
+	margin: 0 auto;
+	border-bottom: 1px solid #b0b0b0;
+}
+
+.EnterCashAmountReceivedModalText {
+	font-size: 10px;
+	width: 105px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.EnterCashAmountReceivedModalValue {
+	width: 105px;
+	display: inline-block;
+}
+
+.EnterCashAmountReceivedModalValueText {
+	width: 100px;
+}
+
+.EnterCashAmountReceivedModalButtonGroup {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.EnterCashAmountReceivedModalNextButton {
+	background-color: #229af0;
+	font-size: 10px;
+	border: 0px;
+    color: white;
+    width: 91px;
+    height: 31px;
+    border-radius: 3px;
+}

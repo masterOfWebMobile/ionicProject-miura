@@ -1,0 +1,81 @@
+<ion-view view-title="KtbProductAdd">
+	<ion-content class="ktbProductAdd">
+		<div class="appNavBar"></div>
+		<i class="ion-android-menu appMenu"></i>
+		<div class="appHeaderTitle">Products</div>
+		<i class="ion-android-search searchIcon"></i>
+	  	<i class="ion-android-more-vertical verticalMenuIcon"></i>
+	  	<div class="ktbProductBoxesHeaderBar">
+	  		<p class="productCatelogButton">Product Catelog</p>
+	  		<p class="inventoryManagerButton">Inventory Manager</p>
+	  		<p class="dashboardButton">Dashboard</p>
+	  		<p class="transactionManagerButton">Transaction Manager</p>
+	  		<div class="appKtbIcon"></div>
+	  		<div class="welcomeInfoArea">
+	  			<div class="welcomeLabel">Welcome</div>
+	  			<div class="logoutArea">
+	  				<i class="ion-android-lock" style="font-size: 14px"></i>
+	  				<p class="logoutLabel" style="display:inline;">LOGOUT</p>
+	  			</div>
+	  		</div>
+	  	</div>
+	  	<div class="ProductAddContentArea">	  	
+	  		<div class="ProductAddAddProductArea">
+	  			<div style="display:inline;">
+	  				<div class="item range range-positive">
+				    	<i class="icon ion-android-remove"></i>
+				    	<input type="range" name="volume" min="0" max="100" value="33">
+				    	<i class="icon ion-android-add"></i>
+					</div>
+					<div class="addProductButton"><p class="addProductButtonLabel">+ ADD PRODUCT</p></div>
+				</div>
+				<div class="ProductAddProductsArea">
+					<div class="row row-center ProductAddRow">
+						<div class="col ProductAddCol" style="visibility:visible; background-image: url('../img/MiuraApp/product_sampleImage.png'); background-size: 100% 100%;">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+					</div>
+					<div class="row row-center ProductAddRow">
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+					</div>
+					<div class="row row-center ProductAddRow">
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+					</div>
+					<div class="row row-center ProductAddRow">
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+					</div>
+					<div class="row row-center ProductAddRow">
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+						<div class="col ProductAddCol">ADD PRODUCT</div>
+					</div>
+				</div>
+	  		</div>
+	  		<div class="itemCheckOutArea">
+	  			<div class="itemCheckOutAreaTitle">
+	  				<p class="itemsLabel">ITEMS</p>
+	  				<p class="amountLabel">AMOUNT</p>
+	  			</div>
+	  			<div class="itemsArea">
+	  			</div>
+	  			<div class="totalBudgetArea">
+	  				$0.00
+	  			</div>
+	  			<div class="checkOutButton" ng-click="onGoToKtbInventoryManager()">
+	  				<p class="checkOutButtonLabel">CHECK OUT</p>
+	  			</div>
+	  		</div>
+	  	</div>
+	</ion-content>
+</ion-view>

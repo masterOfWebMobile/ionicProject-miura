@@ -1,0 +1,77 @@
+<ion-modal-view class="modalView EditProductModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Edit Product</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="EditProductModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="EditProductModalImageArea"></div>
+          <div class="EditProductModalChangeProductImageButton">
+            <div class="EditProductModalChangeProductImageButtonText">CHANGE PRODUCT IMAGE</div>
+            <i class="ion-forward EditProductModalChangeProductImageButtonIcon"></i>
+          </div>
+          <div class="EditProductModalEnterProductTitleArea">
+            <p class="EditProductModalEnterProductTitle">ENTER PRODUCT TITLE</p>
+            <p class="EditProductModalMultiply">*</p>
+          </div>
+          <div class="EditProductModalEnterProductTitleText">
+            <input type="text" class="EditProductModalEnterProductTitleTextField"></input>
+          </div>
+          <div class="EditProductModalProductPriceArea">
+            <p class="EditProductModalProductPrice">PRODUCT PRICE</p>
+            <p class="EditProductModalMultiply">*</p>
+          </div>
+          <div class="EditProductModalProductPriceText">
+            <input type="text" class="EditProductModalProductPriceTextField"></input>
+          </div>
+          <div class="EditProductModalProductOptionLine">
+            <div class="EditProductModalProductSizeArea">
+              PRODUCT SIZE <i class="ion-ios-arrow-down EditProductModalProductSizeSelectDownArrow"></i>
+            </div>
+            <div class="EditProductModalCategoryArea">
+              CATEGORY <i class="ion-ios-arrow-down EditProductModalCategorySelectDownArrow"></i>
+            </div>
+            <div class="EditProductModalQuantityArea">
+              QUANTITY
+            </div>
+            <div class="EditProductModalColorArea">
+              COLOR
+            </div>
+          </div>
+          <div class="EditProductModalProductOptionValueLine">
+            <select class="EditProductModalProductSizeValueArea">
+                <option>Small</option>
+                <option selected>Medium</option>
+                <option>Big</option>
+              </select>
+            <select class="EditProductModalCategoryValueArea">
+                <option selected>Electronics</option>
+                <option>FOOD</option>
+                <option>DRINKS</option>
+                <option>CLOTHES</option>
+              </select>
+
+            <p class="EditProductModalQuantityValueLabel" ng-model="quantityValue">{{quantityValue}}</p>
+            <div class="EditProductModalQuantityValueButtonGroup">
+              <button class="EditProductModalQuantityPlusButton" ng-click="quantityValuePlusButtonClicked()">+</button>
+              <button class="EditProductModalQuantityMinusButton" ng-click="quantityValueMinusButtonClicked()">-</button>
+            </div>
+            <div class="EditProductModalColorValueArea" ng-model="testColors.first" modal-title="Choose a color" color-box="{{testColors.first}}" modal-class="vcc" header-footer-class="bar-positive" color-picker="" style="background-color: {{ testColors.first}} ">
+              <!--button class="button" color-picker="" ng-model="testColors.first" modal-title="Choose a color" color-box="{{testColors.first}}" modal-class="vcc" header-footer-class="bar-positive">
+                        {{ testColors.first}} 
+                      </button-->
+            </div>
+          </div>
+          <div class="EditProductModalProductDescriptionArea">
+            PRODUCT DESCRIPTION
+          </div>
+          <div class="EditProductModalProductDescriptionText">
+            <input type="text" class="EditProductModalProductDescriptionTextField"></input>
+            <i class="ion-compose EditProductModalProductDescriptionIcon"></i>
+          </div>
+          <div>
+            <div class="EditProductModalButtonGroup">
+              <button class="EditProductModalEditCompleteButton" ng-click="EditProductModal.hide(); MarkAsDamagedModal.show()">EDIT PRODUCT</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>

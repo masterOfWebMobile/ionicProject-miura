@@ -1,0 +1,19 @@
+<ion-modal-view class="modalView MerchantAndTransactionCodeModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Merchant & Transaction Code</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="MerchantAndTransactionCodeModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="MerchantAndTransactionCodeModalTitle">IKTB PAYMENTS</div>
+          <div class="MerchantAndTransactionCodeModalLogoWrapper"><div class="MerchantAndTransationCodeModalLogo"></div></div>
+          <div class="MerchantAndTransactionCodeModalGuide">PROVIDE THIS CODE TO YOUR IKTB CUSTOMER TO ENTER</div>
+          <div class="MerchantAndTransactionCodeModalInputArea"><div class="MerchantAndTransactionCodeModalInput"><input type="text"></input></div></div>
+          <div class="MerchantAndTransactionCodeModalGuide2">Please enter your 11 digits code</div>
+          <div>
+            <div class="MerchantAndTransactionCodeModalButtonGroup">
+              <button class="MerchantAndTransactionCodeModalNextButton" ng-click="MerchantAndTransactionCodeModal.hide(); ProcessingValidatingPaymentModal.show()">NEXT</button>
+              <button class="MerchantAndTransactionCodeModalCancelButton" ng-click="MerchantAndTransactionCodeModal.hide()">CANCEL</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>

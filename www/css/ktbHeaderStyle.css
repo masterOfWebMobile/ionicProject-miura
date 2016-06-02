@@ -1,0 +1,123 @@
+.ktbHeaderBar {
+	position: absolute;
+	width: 100%;
+	height: 8.94%;
+	top: 7.73%;
+	background-color: #229af0; 
+}
+
+.productCatelogButton {
+	position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline;
+	font-size: 15px;
+	color: white;
+	margin: 0;
+	margin-left: 1.1%;
+}
+
+.inventoryManagerButton {
+	position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline;
+	font-size: 15px;
+	color: white;
+	margin: 0;
+	margin-left: 11.6%;
+}
+
+.dashboardButton {
+	position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline;
+	font-size: 15px;
+	color: white;
+	margin: 0;
+	margin-left: 23.8%;
+}
+
+.transactionManagerButton {
+	position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline;
+	font-size: 15px;
+	color: white;
+	margin: 0;
+	margin-left: 31.2%;
+}
+
+.appKtbIcon {
+	background-image: url('../img/MiuraApp/app_ktbIcon.png');
+    background-size: 100% 100%;
+	width: 7.7%;
+	height: 67.11%;
+	position: absolute;
+	left: 46.15%;
+	top: 16.44%;
+}
+
+.welcomeInfoArea {
+	position: absolute;
+    right: 1.1%;
+    text-align: right;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.welcomeLabel {
+	color: white;
+	font-size: 15px;
+	margin: 0;
+}
+
+.logoutArea {
+	color: white;
+	font-size: 11px;
+	margin: 0;
+	display: inline;
+}
+
+.ktbHeader {
+	background-color: #f4f8fb;
+}
+
+.ktbContentArea {
+	position: absolute;
+	top: 16.67%;
+	height: 83.33%;
+	width: 100%
+}
+
+.selectedButton {
+	font-weight: 800;
+}
+
+.unselectedButton {
+	font-weight: 400;
+}
+
+

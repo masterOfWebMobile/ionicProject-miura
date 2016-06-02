@@ -1,0 +1,70 @@
+<ion-view view-title="KtbInventoryManager">
+	<ion-content class="ktbInventoryManager">
+	  	<div class="InventoryManagerContentArea">	  	
+	  		<div class="InventoryManagerAddProductArea">
+	  			<div class="InventoryManagerAddProductButtonArea">
+	  				<div class="item range range-positive">
+				    	<i class="icon ion-android-remove"></i>
+				    	<input type="range" name="volume" min="0" max="100" value="33">
+				    	<i class="icon ion-android-add"></i>
+					</div>
+					<div class="InventoryManagerByBestSellingButton">
+						<div class="InventoryManagerByBestSellingButtonLabel">
+							<p class="InventoryManagerbyBestSellingButtonText" style="display:inline;">BY BEST SELLING</p>
+							<i class="ion-ios-arrow-down InventoryManagerbyBestSellingButtonIcon" style="display:inline;"></i>
+						</div>
+					</div>
+					<div class="InventoryManagerAddProductButton">
+						<p class="InventoryManagerAddProductButtonLabel">+ ADD PRODUCT</p>
+					</div>
+					
+				</div>
+				<div class="InventoryManagerProductsArea">
+					<div class="row row-center InventoryManagerRow">
+						<div class="col InverntoryManagerCol" style="visibility:visible; background-image: url('../img/MiuraApp/product_sampleImage.png'); background-size: 100% 100%;">
+							<div class="InventoryManagerProductMenuArea" ng-click="InventoryManagerProductSubMenuModalShow()">
+								<i class="ion-android-menu InventoryManagerProductMenuIcon"></i>
+							</div>
+						</div>
+						<div class="col InverntoryManagerCol">ADD PRODUCT</div>
+					</div>
+					<div class="row row-center InventoryManagerRow">
+						<div class="col InverntoryManagerCol">ADD PRODUCT</div>
+						<div class="col InverntoryManagerCol">ADD PRODUCT</div>
+					</div>
+				</div>
+	  		</div>
+	  		<div class="InventoryManagerItemCheckOutArea">
+	  			<div class="InventoryManagerItemCheckOutAreaTitle">
+	  				<p class="InventoryManagerItemsLabel">ITEMS</p>
+	  				<p class="InventoryManagerCartLabel">Cart (3)</p>
+	  				<p class="InventoryManagerAmountLabel">AMOUNT</p>
+	  			</div>
+	  			<div class="InventoryManagerItemsArea">
+	  				<div class="list" style="">
+	  					<a class="item InventoryManagerItemRow" href="#">
+						    <div class="InventoryManagerItemAreaProductImage"></div>
+						    <p class="InventoryManagerItemAreaProductNameLabel">EddoGalleryAlbum</p>
+						    <p class="InventoryManagerItemAreaProductPrice">$62.00</p>
+							<i class="ion-ios-trash-outline InventoryManagerItemAreaDeleteIcon"></i>
+					    </a>
+					</div>
+	  			</div>
+	  			<div class="InventoryManagerTotalBudgetArea">
+	  				$0.00
+	  			</div>
+	  			<div class="InventoryManagerDiscountButton">
+	  				<div class="InventoryManagerDiscountButtonLabel">
+		  				<p class="InventoryManagerDiscountButtonLabelText">DISCOUNT</p>
+		  				<i class="ion-android-add-circle InventoryManagerDiscountButtonIcon"></i>
+		  			</div>
+	  			</div>
+	  			<div class="InventoryManagerCheckOutButton" ng-click="onGoToKtbCheckOutCtrl()">
+	  				<p class="InventoryManagerCheckOutButtonLabel">CHECK OUT</p>
+	  			</div>
+	  		</div>
+	  	</div>
+
+	  	
+	</ion-content>
+</ion-view>

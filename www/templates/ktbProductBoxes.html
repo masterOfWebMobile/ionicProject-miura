@@ -1,0 +1,63 @@
+<ion-view view-title="KtbProductBoxes">
+	<ion-content class="ktbProductBoxes">
+	  	<div class="ProductBoxesContentArea">	  	
+	  		<div class="ProductBoxesAddProductArea">
+	  			<div style="display:inline">
+	  				<div class="item range range-positive">
+				    	<i class="icon ion-android-remove rangeMinusButton"></i>
+				    	<input type="range" name="volume" min="0" max="100" value="33">
+				    	<i class="icon ion-android-add rangePlusButton"></i>
+					</div>
+					
+				</div>
+				<div style="display:inline">
+					<button type="button" ng-click="onGoToTerms()" class="ktbAddProductButton">+ ADD PRODUCT</button>
+				</div>
+				<div class="productsArea">
+					<div class="row row-center ProductBoxRow">
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+					</div>
+					<div class="row row-center ProductBoxRow">
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+					</div>
+					<div class="row row-center ProductBoxRow">
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+					</div>
+					<div class="row row-center ProductBoxRow">
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+					</div>
+					<div class="row row-center ProductBoxRow">
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+						<div class="col ProductBoxCol">ADD PRODUCT</div>
+					</div>
+				</div>
+	  		</div>
+	  		<div class="ProductBoxesItemCheckOutArea">
+	  			<div class="ProductBoxesItemCheckOutAreaTitle">
+	  				<p class="ProductBoxesItemsLabel">ITEMS</p>
+	  				<p class="ProductBoxesAmountLabel">AMOUNT</p>
+	  			</div>
+	  			<div class="ProductBoxesItemsArea">
+	  			</div>
+	  			<div class="ProductBoxesTotalBudgetArea">
+	  				<p class="ProductBoxesTotalBudgetValue">$0.00</p>
+	  			</div>
+	  			<button type="button" class="ProductBoxesCheckOutButton" ng-click="onGoToKtbAddingProduct()">CHECK OUT</button>
+	  		</div>
+	  	</div>
+	</ion-content>
+</ion-view>

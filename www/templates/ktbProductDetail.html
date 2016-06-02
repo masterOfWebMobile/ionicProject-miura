@@ -1,0 +1,73 @@
+<ion-view view-title="KtbProductDetail">
+	<ion-content class="ktbProductDetail">
+		<div class="ProductDetailContentArea"></div>
+		<div class="productDetailLabel">Product Detail</div>
+		<i class="ion-close-round closeButton"></i>
+		<div class="productImage"></div>
+		<div class="changeProductImageButton">
+			<i class="ion-forward changeProductImageButtonIcon"></i>
+			<p class="changeProductImageButtonLabel">CHANGE PRODUCT IMAGE</p>
+		</div>
+		<div class="enterProductTitleArea">
+			<p class="enterProductTitle">ENTER PRODUCT TITLE</p>
+			<p class="multiply">*</p>
+		</div>
+		<div class="enterProductTitleText">
+			<input type="text" class="enterProductTitleTextField"></input>
+		</div>
+		<div class="productPriceTitleArea">
+			<p class="productPriceTitle">PRODUCT PRICE</p>
+			<p class="multiply">*</p>
+		</div>
+		<div class="productPriceTitleText">
+			<input type="text" class="productPriceTitleTextField"></input>
+		</div>
+		<div class="productOptionLine">
+			<div class="productSizeArea">
+				<p class="productSizeSelect">PRODUCT SIZE</p>
+				<i class="ion-ios-arrow-down productSizeSelectDownArrow"></i>
+			</div>
+			<div class="categoryArea">
+				<p class="categorySelect">CATEGORY</p>
+				<i class="ion-ios-arrow-down categorySelectDownArrow"></i>
+			</div>
+			<div class="quantityArea">
+				QUANTITY
+			</div>
+			<div class="colorArea">
+				COLOR
+			</div>
+		</div>
+		<div class="productOptionValueLine">
+			<select class="productSizeValueArea">
+		      <option>Small</option>
+		      <option selected>Medium</option>
+		      <option>Big</option>
+		    </select>
+			<select class="categoryValueArea">
+		      <option selected>Electronics</option>
+		      <option>FOOD</option>
+		      <option>DRINKS</option>
+		      <option>CLOTHES</option>
+		    </select>
+
+			<p class="quantityValueLabel" ng-model="quantityValue">{{quantityValue}}</p>
+			<div class="quantityValueButtonGroup">
+				<button class="quantityPlusButton" ng-click="quantityValuePlusButtonClicked()">+</button>
+				<button class="quantityMinusButton" ng-click="quantityValueMinusButtonClicked()">-</button>
+			</div>
+			<div class="colorValueArea" ng-model="testColors.first" modal-title="Choose a color" color-box="{{testColors.first}}" modal-class="vcc" header-footer-class="bar-positive" color-picker="" style="background-color: {{ testColors.first}} ">
+				<!--button class="button" color-picker="" ng-model="testColors.first" modal-title="Choose a color" color-box="{{testColors.first}}" modal-class="vcc" header-footer-class="bar-positive">
+              		{{ testColors.first}} 
+              	</button-->
+			</div>
+		</div>
+		<div class="productDescriptionTitleArea">
+			<p class="productDescriptionTitle">PRODUCT DESCRIPTION</p>
+		</div>
+		<div class="productDescriptionTitleText">
+			<input type="text" class="productDescriptionTitleTextField"></input>
+		</div>
+		<button class="addNowButton" ng-click="onGoToKtbProductAdd()">ADD NOW</button>
+	</ion-content>
+</ion-view>

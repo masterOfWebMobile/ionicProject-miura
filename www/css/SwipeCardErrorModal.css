@@ -1,0 +1,39 @@
+.SwipeCardErrorModalView {
+	width: 650px;
+	height: 390px;
+	margin: 0 auto;
+}
+
+.SwipeCardErrorModalLoadingArea {
+	margin-top: 40px;
+}
+
+.SwipeCardErrorModalLoadingIcon {
+	background-image: url('../img/MiuraApp/paymentUnsuccessfulModal_warningIcon.png');
+	width: 160px;
+	height: 150px;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.SwipeCardErrorModalGuide {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 15px;
+	color: #b0b0b0;
+}
+
+.SwipeCardErrorModalButtonGroup {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.SwipeCardErrorModalCancelButton {
+	background-color: #229af0;
+	font-size: 15px;
+	border: 0px;
+    color: white;
+    width: 91px;
+    height: 31px;
+    border-radius: 3px;
+}

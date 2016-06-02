@@ -1,0 +1,53 @@
+<ion-modal-view class="modalView TransactionDetailModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Transaction Detail</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="PinCodeErrorModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="TransactionDetailModalTotalLabel">TOTAL</div>
+          <div class="TransactionDetailModalTotalBudgetArea">
+            <div class="TransactionDetailModalTotalBudget">$183.63</div>
+          </div>
+          <div>
+            <div class="TransactionDetailModalCashReceivedArea">
+              <div class="TransactionDetailModalCashReceivedTitle">CASH RECEIVED</div>
+              <div class="TransactionDetailModalCashReceivedAmount">$200.00</div>
+            </div>
+          </div>
+          <div>
+            <div class="TransactionDetailModalCashBackArea">
+              <div class="TransactionDetailModalCashBackTitle">CASH BACK</div>
+              <div class="TransactionDetailModalCashBackAmount">$15.78</div>
+            </div>
+          </div>
+          <div>
+            <div class="TransactionDetailModalDiscountArea">
+              <div class="TransactionDetailModalDiscountTitle">DISCOUNT</div>
+              <div class="TransactionDetailModalDiscountAmount">$0.00</div>
+            </div>
+          </div>
+          <div>
+            <div class="TransactionDetailModalTaxArea">
+              <div class="TransactionDetailModalTaxTitle">TAX</div>
+              <div class="TransactionDetailModalTaxAmount">$2.99</div>
+            </div>
+          </div>
+          <div>
+            <div class="TransactionDetailModalEmailReceiptArea">
+              <div class="TransactionDetailModalEmailReceiptTitle">EMAIL RECEIPT</div>
+              <div class="TransactionDetailModalEmailReceiptSelect">$200.00</div>
+            </div>
+          </div>
+          <div>
+            <div class="TransactionDetailModalTotalArea">
+              <div class="TransactionDetailModalTotalTitle">Total</div>
+              <div class="TransactionDetailModalTotalAmount">$186.62</div>
+            </div>
+          </div>
+          <div>
+            <div class="TransactionDetailModalButtonGroup">
+              <button class="TransactionDetailModalProceedButton" ng-click="TransactionDetailModal.hide(); PaymentSuccessfulModal.show()">PROCEED</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>

@@ -1,0 +1,102 @@
+.loginLockIcon {
+	background-image: url('../img/MiuraApp/loginScreen_lock.png');
+	width: 3.6%;
+    height: 6.3%;
+    top: 24.5%;
+    left: 48.2%;
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+.loginGuideText1 {
+	text-align: center;
+	width: 100%;
+	top: 36%;
+	position: absolute;
+	font-size: 18px;
+	color: #6fb3d2;
+}
+
+.loginGuideText2 {
+	text-align: center;
+	width: 100%;
+	top: 39.85%;
+	position: absolute;
+	font-size: 18px;
+	color: #6fb3d2;
+}
+
+.loginEnterUID {
+	text-align: center;
+	width: 100%;
+	top: 49.23%;
+	position: absolute;
+	font-size: 13px;
+	color: #afafaf;
+}
+
+.loginEnterPassWord {
+	text-align: center;
+	width: 100%;
+	top: 59.7%;
+	position: absolute;
+	font-size: 13px;
+	color: #afafaf;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+	font-size: 20px;
+	border: 3;
+}
+
+.loginNextButton {
+	border-radius: 3px;
+	background-color: #6fb3d2; 
+	width: 100%;
+	height: 7%;
+	top: 75.7%;
+	width: 15%;	
+	left: 42.5%;
+	position: absolute;
+	border: 0px;
+    color: white;
+    font-size: 18px;
+}
+
+.loginUIDTextArea {
+	position: absolute;
+	left: 41%;
+	width: 18%;
+	top: 51.55%;
+	border-bottom: 3px dashed;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.loginUIDText {
+	width: 100%;
+	font-size: 20px;
+}
+
+.loginPassWordTextArea {
+	position: absolute;
+	left: 39%;
+	width: 22%;
+	top: 62.36%;
+	border-bottom: 3px dashed;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.loginPassWordText {
+	width: 100%;
+	font-size: 20px;	
+}
+
+.loginContent {
+	width: 100%;
+	height: 768px;
+	left: 0px;
+	top: 0px;
+}

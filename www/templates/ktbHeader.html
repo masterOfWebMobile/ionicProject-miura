@@ -1,0 +1,26 @@
+<ion-view view-title="KtbHeader">
+	<ion-content class="ktbHeader">
+		<div class="appNavBar"></div>
+		<i class="ion-android-menu appMenu"></i>
+		<div class="appHeaderTitle">{{tabName}}</div>
+		<i class="ion-android-search searchIcon"></i>
+	  	<i class="ion-android-more-vertical verticalMenuIcon"></i>
+	  	<div class="ktbHeaderBar">
+	  		<p class="productCatelogButton" ng-click="productCatelogButtonClicked()" ng-class="productCatelogButtonSelected">Product Catelog</p>
+	  		<p class="inventoryManagerButton" ng-click="inventoryManagerButtonClicked()" ng-class="inventoryManagerButtonSelected">Inventory Manager</p>
+	  		<p class="dashboardButton" ng-click="dashboardButtonClicked()" ng-class="dashboardButtonSelected">Dashboard</p>
+	  		<p class="transactionManagerButton" ng-click="transactionManagerButtonClicked()" ng-class="transactionManagerButtonSelected">Transaction Manager</p>
+	  		<div class="appKtbIcon"></div>
+	  		<div class="welcomeInfoArea">
+	  			<div class="welcomeLabel">Welcome</div>
+	  			<div class="logoutArea" ng-click="logout()">
+	  				<i class="ion-android-lock" style="font-size: 14px"></i>
+	  				<p class="logoutLabel" style="display:inline;">LOGOUT</p>
+	  			</div>
+	  		</div>
+	  	</div>
+	  	<div class="ktbContentArea">
+	  		<ng-include src="currentSubView"></ng-include>	  	
+	  	</div>
+	</ion-content>
+</ion-view>

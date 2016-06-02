@@ -1,0 +1,45 @@
+<ion-modal-view class="modalView PaymentReceiptModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Payment Receipt</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="PaymentReceiptModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="PaymentReceiptModalSummaryAndDateArea">
+            <div class="PaymentReceiptModalSummaryIcon"></div>
+            <div class="PaymentReceiptModalSummaryText">Summary</div>
+            <div class="PaymentReceiptModalDateArea">Date: 12/12/15</div>
+          </div>
+          <div class="PaymentReceiptModalAmountArea">
+            <div class="PaymentReceiptModalAmountTitle">Amount:</div>
+            <div class="PaymentReceiptModalAmountValue">$10</div>
+          </div>
+          <div class="PaymentReceiptModalModalMerchantIDArea">
+            <div class="PaymentReceiptModalMerchantIDTitle">Merchant ID:</div>
+            <div class="PaymentReceiptModalMerchantIDValue">0400</div>
+          </div>
+          <div class="PaymentReceiptModalMerchantNameArea">
+            <div class="PaymentReceiptModalMerchantNameTitle">Merchant Name:</div>
+            <div class="PaymentReceiptModalMerchantNameValue">Starbucks</div>
+          </div>
+          <div class="PaymentReceiptModalPaymentMethodArea">
+            <div class="PaymentReceiptModalPaymentMethodTitle">Payment Method:</div>
+            <div class="PaymentReceiptModalPaymentMethodValue">iKTB Payment</div>
+          </div>
+          <div class="PaymentReceiptModalPaymentStatusArea">
+            <div class="PaymentReceiptModalPaymentStatusTitle">Payment Status:</div>
+            <div class="PaymentReceiptModalPaymentStatusValue">
+              Successful<i class="ion-checkmark-circled PaymentReceiptModalPaymentStatusSuccessfulIcon"></i>
+            </div>
+          </div>
+          <div class="PaymentReceiptModalEmailGuide">EMAIL THIS RECEIPT TO:</div>
+          <div class="PaymentReceiptModalEmailArea">
+            <input type="text" class="PaymentReceiptModalAddressText"></input>
+            <button class="PaymentReceiptModalSentMailNowButton" ng-click="PaymentReceiptModal.hide(); EmailSentModal.show()">SEND NOW</button>
+          </div>
+          <div>
+            <div class="PaymentReceiptModalButtonGroup">
+              <button class="PaymentReceiptModalCancelButton" ng-click="PaymentReceiptModal.hide()">CANCEL</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>

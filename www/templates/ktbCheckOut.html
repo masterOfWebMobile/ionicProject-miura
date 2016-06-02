@@ -1,0 +1,47 @@
+<ion-view view-title="KtbCheckOut">
+	<ion-content class="ktbCheckOut">
+	  	<div class="CheckOutContentArea">	  	
+	  		<div class="CheckOutAddProductArea">
+	  			<div class="CheckOutHowToPayLabel">Swipe Card</div>
+	  			<div class="CheckOutPaymentMethod">
+	  				<div class="iKTBPayButton" ng-class="iKTBPayButtonSelected" ng-click="iKTBPayButtonClick()">
+	  					<div class="iKTBPayButtonLabel"></div>
+	  				</div>
+	  				<div class="miuraTerminalButton" ng-class="miuraTerminalButtonSelected" ng-click="miuraTerminalButtonClick()">
+	  					<div class="miuraTerminalButtonLabel"></div>
+	  				</div>
+	  				<div class="byCashButton" ng-class="byCashButtonSelected" ng-click="byCashButtonClick()">
+	  					<div class="byCashButtonLabel"></div>
+	  				</div>
+	  			</div>
+	  		</div>
+	  		<div class="CheckOutItemCheckOutArea">
+	  			<div class="CheckOutItemCheckOutAreaTitle">
+	  				<p class="CheckOutItemsLabel">ITEMS</p>
+	  				<p class="CheckOutCartLabel">Cart (3)</p>
+	  				<p class="CheckOutAmountLabel">AMOUNT</p>
+	  			</div>
+	  			<div class="CheckOutItemsArea">
+	  				<div class="list" style="">
+	  					<a class="item CheckOutItemRow" href="#">
+						    <div class="CheckOutItemAreaProductImage"></div>
+						    <p class="CheckOutItemAreaProductNameLabel">EddoGalleryAlbum</p>
+						    <p class="CheckOutItemAreaProductPrice">$62.00</p>
+						    <i class="ion-ios-trash-outline CheckOutItemAreaDeleteIcon"></i>
+					    </a>
+					</div>
+	  			</div>
+	  			<div class="CheckOutTotalBudgetArea">
+	  				$0.00
+	  			</div>
+	  			<div class="CheckOutChargeButton" ng-click="chargeButtonClick()">
+	  				<p class="CheckOutChargeButtonLabel">CHARGE</p>
+	  			</div>
+	  		</div>
+	  	</div>
+
+	  
+
+	</ion-content>
+	
+</ion-view>

@@ -1,0 +1,77 @@
+.termsWelcomeTitleLabel {
+	font-size: 30px;
+	margin-top: 30px;
+	padding-left: 1.1%;
+	color: black;
+}
+
+.termsWelcomeContentLabel {
+	font-size: 15px;
+	margin-top: 20px;
+	padding-left: 1.1%;
+	padding-left: 1.1%;
+	color: black;
+}
+
+.termsServiceTitleLabel {
+	font-size: 30px;
+	margin-top: 30px;
+	padding-left: 1.1%;
+	color: black;
+}
+
+.termsServiceContentLabel {
+	font-size: 15px;
+	margin-top: 20px;
+	padding-left: 1.1%;
+	padding-left: 1.1%;
+	color: black;
+}
+
+.termsPrivacyTitleLabel {
+	font-size: 30px;
+	margin-top: 30px;
+	padding-left: 1.1%;
+	color: black;
+}
+
+.termsPrivacyContentLabel {
+	font-size: 15px;
+	margin-top: 20px;
+	padding-left: 1.1%;
+	padding-left: 1.1%;
+	color: black;
+}
+
+.termsAcceptArea {
+	margin-top: 30px;
+}
+
+.tempCheckIcon {
+	display: inline-block;
+	font-size: 35px;
+	padding-left: 1.1%;
+	vertical-align: middle;
+}
+
+.termsAcceptTitleLabel {
+	display: inline-block;
+	color: #00a4e4;
+	font-size: 20px;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+
+.termsSelected {
+	color: #00a4e4;
+}
+
+.termsUnselected {
+	color: #b0b0b0;
+}
+
+.terms {
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}

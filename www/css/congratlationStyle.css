@@ -1,0 +1,47 @@
+.congratlationNextButton {
+	border-radius: 3px;
+	background-color: #55ae7b; 
+	width: 100%;
+	height: 7%;
+	top: 62.25%;
+	width: 15%;	
+	left: 42.5%;
+	position: absolute;
+	border: 0px;
+    color: white;
+    font-size: 18px;
+}
+
+.congratlationNextButtonLabel {
+	font-size: 18px;
+	color: white;
+	margin: 0px;
+}
+
+.congratlationSmileIcon {
+	background-image: url('../img/MiuraApp/congratlationScreen_smile.png');
+	width: 5.6%;
+    height: 9.49%;
+    top: 38.52%;
+    left: 47.2%;
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+.congratlationLabel {
+	text-align: center;
+	width: 100%;
+	top: 50.11%;
+	position: absolute;
+	font-size: 20px;
+	color: #6fb3d2;
+}
+
+.congratlationGuide {
+	text-align: center;
+	width: 100%;
+	top: 55.85%;
+	position: absolute;
+	font-size: 15px;
+	color: #6fb3d2;
+}

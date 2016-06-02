@@ -1,0 +1,510 @@
+.InventoryManagerContentArea {
+	padding-top: 29px;
+	position: absolute;
+	top: 0%;
+	height: 100%;
+	width: 100%;
+	background-color: #f4f8fb;
+}
+
+.InventoryManagerAddProductArea {
+	display: inline-block;
+    width: 58%;
+    height: 100%;
+    padding-left: 1.1%;
+    padding-bottom: 1%;
+    vertical-align: top;
+}
+
+.InventoryManagerItemCheckOutArea {
+	display: inline-block;
+    /* flex: 42; */
+    width: 41.6%;
+    left: 58%;
+    height: 100%;
+    padding-left: 0.9%;
+    padding-right: 1.1%;
+    vertical-align: top;
+}
+
+.InventoryManagerAddProductButton {
+	width: 18.1%;
+	height: 43px;
+	background-color: #229af0;
+	color: white;
+	float: right;
+	 display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+	display: flex;
+	margin-right: 10px;
+	justify-content: center;
+	display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-direction: normal;
+        -moz-box-direction: normal;
+        -webkit-box-orient: horizontal;
+        -moz-box-orient: horizontal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+        align-content: stretch;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+	align-items: center;
+	border-radius: 3px;
+}
+
+.InventoryManagerAddProductButtonLabel {
+	font-size: 15px;
+	color: white;
+	margin: 0px;
+}
+
+.InventoryManagerProductsArea {
+	height: 94.48%;
+	width: 100%;
+	padding-top: 2.56%;
+}
+
+.InventoryManagerItemRow {
+	height: 60px;
+	margin: 4px;
+	width: 100%;
+	border: 0px;
+    border-bottom: 1px solid #b0b0b0;
+}
+
+.InverntoryManagerCol {
+	visibility: hidden;
+	background-color: #e5e5e5;
+	height: 100%;
+	padding: 3%;
+	border-radius: 3px;
+	margin: 2px;
+	color: #d0d0d0;
+	position: relative;
+}
+
+.InventoryManagerItemCheckOutAreaTitle {
+    position: relative;
+	width: 100%;
+	background-color: white;
+	height: 5.52%;
+    display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+	display: flex;
+	border-bottom: 1px solid #b0b0b0;
+	font-size: 15px;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-direction: normal;
+        -moz-box-direction: normal;
+        -webkit-box-orient: horizontal;
+        -moz-box-orient: horizontal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: flex-start;
+        -moz-box-pack: flex-start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: flex-start;
+        justify-content: flex-start;
+        -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+        align-content: stretch;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    color: #b0b0b0;
+    padding-left: 10px;
+    padding-right: 70px;
+}
+
+.InventoryManagerItemsLabel {
+ position: absolute;
+    top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: TRANSLATEY(-50%);
+}
+
+.InventoryManagerAmountLabel {
+    position: absolute;
+    top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: TRANSLATEY(-50%);
+}
+
+.InventoryManagerCartLabel {
+	margin: auto 0;
+	color: #229af0;
+	-webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+	flex: 1;
+	text-align: center;
+    margin-left: 10px;
+}
+
+.InventoryManagerItemsArea {
+	height: 64.28%;
+	width: 100%;
+	background-color: white;
+}
+
+.InventoryManagerCheckOutButton {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-direction: normal;
+        -moz-box-direction: normal;
+        -webkit-box-orient: horizontal;
+        -moz-box-orient: horizontal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+        align-content: stretch;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+	background-color: #f3f3f3; 
+	width: 100%;
+	height: 10.72%;
+}
+
+.InventoryManagerCheckOutButtonLabel {
+	font-size: 20px;
+	color: #b0b0b0;
+	margin: 0px;
+}
+
+.InventoryManagerDiscountButton {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+	display: flex;
+	display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-direction: normal;
+        -moz-box-direction: normal;
+        -webkit-box-orient: horizontal;
+        -moz-box-orient: horizontal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+        align-content: stretch;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+	justify-content: center;
+	align-items: center;
+	background-color: #229af0; 
+	width: 100%;
+	height: 10.72%;
+}
+
+.InventoryManagerDiscountButtonLabel {
+	font-size: 20px;
+	color: white;
+	margin: 0px;
+}
+
+
+.InventoryManagerTotalBudgetArea {
+	height: 8.76%;
+	width: 100%;
+	  display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-direction: normal;
+        -moz-box-direction: normal;
+        -webkit-box-orient: horizontal;
+        -moz-box-orient: horizontal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+        align-content: stretch;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+	font-size: 30px;
+	background-color: white;
+}
+
+.InventoryManagerByBestSellingButton {
+	width: 21%;
+	height: 43px;
+	background-color: white;
+	float: right;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+	display: flex;
+	display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-direction: normal;
+        -moz-box-direction: normal;
+        -webkit-box-orient: horizontal;
+        -moz-box-orient: horizontal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+        align-content: stretch;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+}
+
+.InventoryManagerByBestSellingButtonLabel {
+	font-size: 15px;
+	color: #229af0;
+	margin: 0px;
+}
+
+.InventoryManagerProductMenuArea {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-direction: normal;
+        -moz-box-direction: normal;
+        -webkit-box-orient: horizontal;
+        -moz-box-orient: horizontal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+        align-content: stretch;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: white;
+	float: right;
+}
+
+.InventoryManagerProductMenuIcon {
+	font-size: 20px;
+	color: #bababa;
+}
+
+.InventoryManagerDiscountButtonLabelText {
+	display: inline;
+}
+
+.InventoryManagerDiscountButtonLabelIcon {
+	display: inline;
+}
+
+.InventoryManagerItemAreaProductImage {
+	display: inline;
+	background-image: url('../img/MiuraApp/product_sampleImage.png');
+    background-size: 100% 100%;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 5px;
+	 top: 50%;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: TRANSLATEY(-50%);
+            position: absolute;
+}
+
+.InventoryManagerItemAreaProductPrice {
+	display: inline;
+	margin: 0;
+	font-size: 20px;
+	 top: 50%;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: TRANSLATEY(-50%);
+            position: absolute;
+            right: 40px;
+}
+
+.InventoryManagerItemAreaDeleteIcon {
+	display: inline;
+	margin-left: 5px;
+	color: #229af0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: TRANSLATEY(-50%);
+    position: absolute;
+    right: 20px;
+}
+
+.InventoryManagerItemAreaProductNameLabel {
+	display: inline;
+	margin: 0;
+	left: 60px;
+	font-size: 15px;
+	 top: 50%;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: TRANSLATEY(-50%);
+            position: absolute;
+}
+
+
+
+.item p {
+	margin: 0;
+}
+
+.InventoryManagerRow {
+	height: 50%;
+	margin: 4px;
+	 display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	border: 0px;
+}
+

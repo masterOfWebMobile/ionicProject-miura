@@ -1,0 +1,17 @@
+<ion-modal-view class="modalView ProcessingPaymentProcessedModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Processing</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="ProcessingPaymentProcessedModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="ProcessingPaymentProcessedModalLoadingArea">
+            <i class="ion-load-a ProcessingPaymentProcessedModalLoadingIcon" ng-click="ProcessingPaymentProcessedModal.hide(); PaymentSuccessfulModal.show()"></i>
+          </div>
+          <div class="ProcessingPaymentProcessedModalGuide">PLEASE WAIT...<br>IKTB IS VALIDATING PAYMENT</div>
+          <div>
+            <div class="ProcessingPaymentProcessedModalButtonGroup">
+              <button class="ProcessingPaymentProcessedModalCancelButton" ng-click="ProcessingPaymentProcessedModal.hide()">CANCEL</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>

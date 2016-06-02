@@ -1,0 +1,38 @@
+<ion-modal-view class="modalView PaymentUnsuccessfulModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Payment Unsuccessful</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="PaymentUnsuccessfulModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="PaymentUnsuccessfulModalSummaryAndDateArea">
+            <div class="PaymentUnsuccessfulModalSummaryIcon"></div>
+            <div class="PaymentUnsuccessfulModalSummaryText">Summary</div>
+            <div class="PaymentUnsuccessfulModalDateArea">Date: 12/12/15</div>
+          </div>
+          <div class="PaymentUnsuccessfulModalAmountArea">
+            <div class="PaymentUnsuccessfulModalAmountTitle">Amount:</div>
+            <div class="PaymentUnsuccessfulModalAmountValue">$10</div>
+          </div>
+          <div class="PaymentUnsuccessfulModalMerchantIDArea">
+            <div class="PaymentUnsuccessfulModalMerchantIDTitle">Merchant ID:</div>
+            <div class="PaymentUnsuccessfulModalMerchantIDValue">0400</div>
+          </div>
+          <div class="PaymentUnsuccessfulModalMerchantNameArea">
+            <div class="PaymentUnsuccessfulModalMerchantNameTitle">Merchant Name:</div>
+            <div class="PaymentUnsuccessfulModalMerchantNameValue">Starbucks</div>
+          </div>
+          <div class="PaymentUnsuccessfulModalPaymentMethodArea">
+            <div class="PaymentUnsuccessfulModalPaymentMethodTitle">Payment Method:</div>
+            <div class="PaymentUnsuccessfulModalPaymentMethodValue">iKTB Payment</div>
+          </div>
+          <div class="PaymentUnsuccessfulModalUnsuccessArea">
+            <div class="PaymentUnsuccessfulModalUnsuccessIcon"></div>
+          </div>
+          <div class="PaymentUnsuccesfulModalGuide">SORRY<br>YOUR PAYMENT HAS BEEN DECLINED<br>THANK YOU FOR USING IKTB PAYMENTS</div>
+          <div>
+            <div class="PaymentUnsuccessfulModalButtonGroup">
+              <button class="PaymentUnsuccessfulModalCancelButton" ng-click="PaymentUnsuccessfulModal.hide(); SignatureModal.show()">CLICK HERE TO RETRY THE TRANSACTION</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>

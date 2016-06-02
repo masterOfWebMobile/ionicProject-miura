@@ -1,0 +1,19 @@
+<ion-modal-view class="modalView EnterCashAmountReceivedModalView">
+        <ion-header-bar class="bar bar-header DashboardModalViewHeaderBar">
+          <h1 class="title DashboardModalViewHeaderName">Enter Cash Amount Received</h1>
+          <button class="button button-clear button-primary DashboardModalViewHeaderCloseButton" ng-click="EnterCashAmountReceivedModal.hide()"><i class="ion-close-round"></i></button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="EnterCashAmountReceivedModalCashAmount">
+            <div class="EnterCashAmountReceivedModalAmountArea">
+              <div class="EnterCashAmountReceivedModalText">CASH RECEIVED</div>
+              <div class="EnterCashAmountReceivedModalValue"><input type="text" class="EnterCashAmountReceivedModalValueText"></input></div>
+            </div>
+          </div>
+          <div>
+            <div class="EnterCashAmountReceivedModalButtonGroup">
+              <button class="EnterCashAmountReceivedModalNextButton" ng-click="EnterCashAmountReceivedModal.hide(); ChangeToCustomerModal.show()">NEXT</button>
+            </div>
+          </div>
+        </ion-content>
+</ion-modal-view>
